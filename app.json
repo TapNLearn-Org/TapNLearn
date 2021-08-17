@@ -3,7 +3,7 @@
     "name": "TapNLearn",
     "slug": "TapNLearn",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "icon": "./assets/icon.png",
     "sdkVersion": "42.0.0",
     "splash": {
