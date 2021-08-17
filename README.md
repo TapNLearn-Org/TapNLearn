@@ -6,6 +6,9 @@ This is a project created for first step learning of kids.
 * expo init FirstStepLearning
 * git init
 * git remote add origin https://amankachhal99@bitbucket.org/amankachhal99/firststeplearning.git
+* git add -A
+* git commit -m "Initial commit"
+* git push origin master --allow-unrelated-histories
 * npm install @react-navigation/native
 * expo install react-native-screens react-native-safe-area-context
 
