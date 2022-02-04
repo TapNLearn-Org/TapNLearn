@@ -15,15 +15,20 @@ import ColorsListComponent from "./component/ColorsComponent";
 import CutleryListComponent from "./component/CutleryComponent";
 import ObjectListComponent from "./component/ObjectComponent";
 import ShapesListComponent from "./component/ShapesComponent";
+import FlagsListComponent from "./component/FlagsComponent";
+import {AdMobBanner, setTestDeviceIDAsync} from "expo-ads-admob";
 
 // home stack navigator screens
 const Stack = createNativeStackNavigator();
 enableScreens();
+setTestDeviceIDAsync('EMULATOR').then(r => ({}));
 
 export default function App() {
-  return (
+  function bannerError() {};
+    return (
 
     <View style={styles.container}>
+      <View style={styles.applicationContent}>
       <NavigationContainer>
         <Stack.Navigator>
           <Stack.Screen name="Home" options={{headerShown: false}} component={HomeComponent} />
@@ -32,6 +37,7 @@ export default function App() {
           <Stack.Screen name="BodyParts" options={{headerShown: false}} component={BodyPartsListComponent} />
           <Stack.Screen name="Colors" options={{headerShown: false}} component={ColorsListComponent} />
           <Stack.Screen name="Cutlery" options={{headerShown: false}} component={CutleryListComponent} />
+          <Stack.Screen name="Flags" options={{headerShown: false}} component={FlagsListComponent} />
           <Stack.Screen name="Food" options={{headerShown: false}} component={FoodListComponent} />
           <Stack.Screen name="Fruit" options={{headerShown: false}} component={FruitListComponent} />
           <Stack.Screen name="Objects" options={{headerShown: false}} component={ObjectListComponent} />
@@ -40,13 +46,28 @@ export default function App() {
           <Stack.Screen name="Vegetable" options={{headerShown: false}} component={VegetableListComponent} />
         </Stack.Navigator>
       </NavigationContainer>
+      </View>
+      <View style={styles.addContent}>
+      <AdMobBanner
+          bannerSize="fullBanner"
+          adUnitID="ca-app-pub-1302685970072627/7331682888"
+          didFailToReceiveAdWithError={bannerError()} />
+      </View>
     </View>
-  );
-}
+
+  )};
 
 const styles = StyleSheet.create({
   container: {
     width: '100%',
     height: '100%'
+  },
+  applicationContent: {
+    width: '100%',
+    height: '90%'
+  },
+  addContent: {
+    position: "absolute",
+    bottom: 0
   },
 });

@@ -1,13 +1,14 @@
 import {Dimensions, StyleSheet} from 'react-native';
 
+const screenHeight = Dimensions.get("window").height * 0.9;
 const styles = StyleSheet.create({
 
     container: {
       width: '100%',
-      height: Dimensions.get("window").height
+      height: screenHeight
     },
     appTitle: {
-        marginTop: Dimensions.get("window").height - 60,
+        marginTop: screenHeight - 60,
       alignItems: 'center'
     },
     title: {
@@ -21,6 +22,13 @@ const styles = StyleSheet.create({
       resizeMode: 'contain',
       position: 'absolute'
     },
+    backButton: {
+        marginTop: screenHeight - 50,
+        position: "absolute",
+        width: 32,
+        color: "tomato"
+    },
+
 });
 
 export default styles;

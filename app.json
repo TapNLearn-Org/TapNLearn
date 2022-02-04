@@ -3,11 +3,10 @@
     "name": "TapNLearn",
     "slug": "TapNLearn",
     "version": "1.0.0",
-    "orientation": "landscape",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/GooglePlayStore.png",
     "sdkVersion": "42.0.0",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/GooglePlayStore.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,8 +21,11 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/GooglePlayStore.png",
         "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-1302685970072627~6210172908"
       },
       "package": "com.aman.kachhal99.TapNLearn"
     },
