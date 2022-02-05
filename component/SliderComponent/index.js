@@ -6,7 +6,6 @@ import { AntDesign } from '@expo/vector-icons';
 const SliderComponent = (props) => {
     const {navigation} = props;
     const {name, image} = props.fields;
-
     return (
     <View style={styles.container}>
         <Image source={image} style={styles.image} />

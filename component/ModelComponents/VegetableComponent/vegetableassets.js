@@ -1,28 +1,28 @@
 export default [{
     name: "Brinjal",
-    image: require("../../../assets/pictures/vegetable/Brinjal.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/vegetable/Brinjal.jpg"}
 },{
     name: "Cabbage",
-    image: require("../../../assets/pictures/vegetable/Cabbage.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/vegetable/Cabbage.jpg"}
 },{
     name: "Carrot",
-    image: require("../../../assets/pictures/vegetable/carrot.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/vegetable/carrot.jpg"}
 },{
     name: "Cucumber",
-    image: require("../../../assets/pictures/vegetable/Cucumber.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/vegetable/Cucumber.jpg"}
 },{
     name: "Lemon",
-    image: require("../../../assets/pictures/vegetable/Lemon.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/vegetable/Lemon.jpg"}
 },{
     name: "Onion",
-    image: require("../../../assets/pictures/vegetable/Onion.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/vegetable/Onion.jpg"}
 },{
     name: "Peas",
-    image: require("../../../assets/pictures/vegetable/Peas.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/vegetable/Peas.jpg"}
 },{
     name: "Potato",
-    image: require("../../../assets/pictures/vegetable/Potato.png")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/vegetable/Potato.png"}
 },{
     name: "Pumpkin",
-    image: require("../../../assets/pictures/vegetable/Pumpkin.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/vegetable/Pumpkin.jpg"}
 }]

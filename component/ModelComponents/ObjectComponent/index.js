@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, FlatList, Dimensions} from 'react-native';
 import styles from './styles';
-import SliderComponent from "../SliderComponent";
+import SliderComponent from "../../SliderComponent";
 import objectassets from "./objectassets";
 
 const ObjectListComponent = (props) => {

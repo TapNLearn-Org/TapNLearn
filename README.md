@@ -1,6 +1,7 @@
 # README #
 
 This is a project created for first step learning of kids.
+Always remember this project is in React Native. So look for solutions only with react native libraries.
 
 ## Following package is to be installed.
 * expo init FirstStepLearning

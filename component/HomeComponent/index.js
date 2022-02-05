@@ -4,10 +4,11 @@ import styles from './styles';
 import PictureButton from "../PictureButton";
 
 const HomeComponent = (props) => {
+    //let imageLocal = require('../../assets/pictures1/sports/Cycling.webp');
+    let imageURL = {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/activity/Cycling.jpg"}
   return (
     <View style={styles.homeScreen}>
-        <ImageBackground source={require('../../assets/pictures/sports/Cycling.webp')}
-        style={styles.image} />
+        <ImageBackground source={imageURL} style={styles.image} />
         <View style={styles.appTitle}>
             <Text style={styles.title}>Tap N Learn</Text>
             <Text style={styles.subTitle}>Where learning starts...</Text>

@@ -1,37 +1,37 @@
 export default [{
     name: "Arrow",
-    image: require("../../../assets/pictures/shapes/Arrow.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/shapes/Arrow.jpg"}
 },{
     name: "Circle",
-    image: require("../../../assets/pictures/shapes/Circle.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/shapes/Circle.jpg"}
 },{
     name: "Cross",
-    image: require("../../../assets/pictures/shapes/Cross.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/shapes/Cross.jpg"}
 },{
     name: "Cube",
-    image: require("../../../assets/pictures/shapes/Cude.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/shapes/Cude.jpg"}
 },{
     name: "Heart",
-    image: require("../../../assets/pictures/shapes/Heart.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/shapes/Heart.jpg"}
 },{
     name: "Hexagon",
-    image: require("../../../assets/pictures/shapes/Heaxagon.png")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/shapes/Heaxagon.png"}
 },{
     name: "Oval",
-    image: require("../../../assets/pictures/shapes/Oval.png")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/shapes/Oval.png"}
 },{
     name: "Pentagon",
-    image: require("../../../assets/pictures/shapes/Pentagon.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/shapes/Pentagon.jpg"}
 },{
     name: "Rectangle",
-    image: require("../../../assets/pictures/shapes/Rectangle.jpeg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/shapes/Rectangle.jpeg"}
 },{
     name: "Square",
-        image: require("../../../assets/pictures/shapes/Square.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/shapes/Square.jpg"}
 },{
     name: "Star",
-    image: require("../../../assets/pictures/shapes/Star.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/shapes/Star.jpg"}
 },{
     name: "Triangle",
-    image: require("../../../assets/pictures/shapes/Triangle.png")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/shapes/Triangle.png"}
 }]
