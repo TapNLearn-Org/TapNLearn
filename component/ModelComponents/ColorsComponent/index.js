@@ -2,7 +2,7 @@ import React from 'react';
 import {View, FlatList, Dimensions} from 'react-native';
 import styles from './styles';
 import colorsassets from "./colorsassets";
-import SliderComponent from "../SliderComponent";
+import SliderComponent from "../../SliderComponent";
 
 const ColorsListComponent = (props) => {
     return (

@@ -1,28 +1,28 @@
 export default [{
     name: "Blue",
-    image: require("../../../assets/pictures/colors/Blue.png")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/colors/Blue.png"}
 },{
     name: "Brown",
-    image: require("../../../assets/pictures/colors/Brown.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/colors/Brown.jpg"}
 },{
     name: "Green",
-    image: require("../../../assets/pictures/colors/Green.png")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/colors/Green.png"}
 },{
     name: "Grey",
-    image: require("../../../assets/pictures/colors/Grey.png")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/colors/Grey.png"}
 },{
     name: "LightGreen",
-    image: require("../../../assets/pictures/colors/LightGreen.png")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/colors/LightGreen.png"}
 },{
     name: "Magenta",
-    image: require("../../../assets/pictures/colors/Magenta.png")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/colors/Magenta.png"}
 },{
     name: "Purple",
-    image: require("../../../assets/pictures/colors/Purple.png")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/colors/Purple.png"}
 },{
     name: "Red",
-    image: require("../../../assets/pictures/colors/Red.png")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/colors/Red.png"}
 },{
     name: "Yellow",
-    image: require("../../../assets/pictures/colors/Yellow.png")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/colors/Yellow.png"}
 }]

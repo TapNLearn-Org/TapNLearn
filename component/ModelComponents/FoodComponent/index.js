@@ -2,7 +2,7 @@ import React from 'react';
 import {View, FlatList, Dimensions} from 'react-native';
 import styles from './styles';
 import foodassets from "./foodassets";
-import SliderComponent from "../SliderComponent";
+import SliderComponent from "../../SliderComponent";
 
 const FoodListComponent = (props) => {
   return (

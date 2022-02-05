@@ -1,22 +1,22 @@
 export default [{
     name: "Butter Knife",
-    image: require("../../../assets/pictures/cutlery/ButterKnife1.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/cutlery/ButterKnife1.jpg"}
 },{
     name: "Chop Sticks",
-    image: require("../../../assets/pictures/cutlery/Chopsticks.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/cutlery/Chopsticks.jpg"}
 },{
     name: "Dinner Knife",
-    image: require("../../../assets/pictures/cutlery/DinnerKnife.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/cutlery/DinnerKnife.jpg"}
 },{
     name: "Fork",
-    image: require("../../../assets/pictures/cutlery/Fork.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/cutlery/Fork.jpg"}
 },{
     name: "Frying Pan",
-    image: require("../../../assets/pictures/cutlery/FryingPan.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/cutlery/FryingPan.jpg"}
 },{
     name: "Salad Spoon",
-    image: require("../../../assets/pictures/cutlery/SaladSpoon.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/cutlery/SaladSpoon.jpg"}
 },{
     name: "Spoon",
-    image: require("../../../assets/pictures/cutlery/Spoon.png")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/cutlery/Spoon.png"}
 }]

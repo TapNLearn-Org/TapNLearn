@@ -1,16 +1,16 @@
 export default [{
     name: "Cycling",
-    image: require("../../../assets/pictures/activity/Cycling.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/activity/Cycling.jpg"}
 },{
     name: "Dancing",
-    image: require("../../../assets/pictures/activity/Dancing.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/activity/Dancing.jpg"}
 },{
     name: "Hiking",
-    image: require("../../../assets/pictures/activity/Hiking.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/activity/Hiking.jpg"}
 },{
     name: "Running",
-    image: require("../../../assets/pictures/activity/Running.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/activity/Running.jpg"}
 },{
     name: "Swimming",
-    image: require("../../../assets/pictures/activity/Swimming.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/activity/Swimming.jpg"}
 }]
