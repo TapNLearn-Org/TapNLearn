@@ -2,7 +2,7 @@ import React from 'react';
 import {View, FlatList, Dimensions} from 'react-native';
 import styles from './styles';
 import fruitassets from "./fruitassets";
-import SliderComponent from "../SliderComponent";
+import SliderComponent from "../../SliderComponent";
 
 const FruitListComponent = (props) => {
   return (

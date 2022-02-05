@@ -1,16 +1,16 @@
 export default [{
     name: "Burger",
-    image: require("../../../assets/pictures/food/Burger.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/food/Burger.jpg"}
 },{
     name: "Cake",
-    image: require("../../../assets/pictures/food/Cake.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/food/Cake.jpg"}
 },{
     name: "Omelette",
-    image: require("../../../assets/pictures/food/Omellete.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/food/Omellete.jpg"}
 },{
     name: "Pizza",
-    image: require("../../../assets/pictures/food/Pizza.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/food/Pizza.jpg"}
 },{
     name: "Sandwich",
-    image: require("../../../assets/pictures/food/Sandwich.jpg")
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/food/Sandwich.jpg"}
 }]
