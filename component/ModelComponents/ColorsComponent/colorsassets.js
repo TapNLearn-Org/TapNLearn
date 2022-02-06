@@ -1,6 +1,6 @@
 export default [{
     name: "Blue",
-    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/colors/Blue.png"}
+    image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/colors/Blue.jpg"}
 },{
     name: "Brown",
     image: {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/colors/Brown.jpg"}
