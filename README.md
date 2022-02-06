@@ -19,11 +19,14 @@ Always remember this project is in React Native. So look for solutions only with
 * expo build:android -t apk
 * expo login
 
+## Task Done
+* Move the images to S3 Bucket
+
 ## Task TODO
+* Improve the images of app.
 * Back Button
 * app to be orientation of the screen
 * AdMob Integration
-* Move the images to S3 Bucket 
 * Make home screen button from picture.
 * Offline mode for the App
 * Add Music and voice

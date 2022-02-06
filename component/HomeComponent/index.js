@@ -1,18 +1,19 @@
 import React from 'react';
-import { StyleSheet, Text, View, ImageBackground } from 'react-native';
+import {Text, View, ImageBackground } from 'react-native';
 import styles from './styles';
 import PictureButton from "../PictureButton";
 
 const HomeComponent = (props) => {
-    //let imageLocal = require('../../assets/pictures1/sports/Cycling.webp');
-    let imageURL = {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/activity/Cycling.jpg"}
+    //let image = require('../../assets/supporting/BackGround2.jpg');
+    let image = {uri: "https://tapnlearnresources.s3.ap-southeast-1.amazonaws.com/pictures/supporting/BackGround2.jpg"};
   return (
     <View style={styles.homeScreen}>
-        <ImageBackground source={imageURL} style={styles.image} />
+        <ImageBackground source={image} style={styles.image} />
         <View style={styles.appTitle}>
             <Text style={styles.title}>Tap N Learn</Text>
             <Text style={styles.subTitle}>Where learning starts...</Text>
         </View>
+
         <View style={styles.pictureButton}>
             <PictureButton text="Activity" navigation={props.navigation}/>
             <PictureButton text="Animals" navigation={props.navigation}/>
@@ -30,6 +31,8 @@ const HomeComponent = (props) => {
         <View style={styles.pictureButton}>
             <PictureButton text="Sports" navigation={props.navigation}/>
             <PictureButton text="Vegetable" navigation={props.navigation}/>
+            <PictureButton text="Baby Animal" navigation={props.navigation}/>
+            <PictureButton text="People" navigation={props.navigation}/>
         </View>
     </View>
   );

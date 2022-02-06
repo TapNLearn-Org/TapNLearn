@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
       height: '100%'
     },
     appTitle: {
-      marginTop: '10%',
+      marginTop: '2%',
       width: '100%',
       alignItems: 'center'
     },

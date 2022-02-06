@@ -1,6 +1,7 @@
 import {Dimensions, StyleSheet} from 'react-native';
 
-const screenHeight = Dimensions.get("window").height * 0.9;
+//const screenHeight = Dimensions.get("window").height * 0.9;
+const screenHeight = Dimensions.get("window").height;
 const styles = StyleSheet.create({
 
     container: {
