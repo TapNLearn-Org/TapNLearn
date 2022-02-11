@@ -19,6 +19,7 @@ import FlagsListComponent from "./component/ModelComponents/FlagsComponent";
 import {AdMobBanner, setTestDeviceIDAsync} from "expo-ads-admob";
 import BabyAnimalListComponent from "./component/ModelComponents/BabyAnimalComponent";
 import PeopleListComponent from "./component/ModelComponents/PeopleComponent";
+import FlowerListComponent from "./component/ModelComponents/FlowerComponent";
 
 // home stack navigator screens
 const Stack = createNativeStackNavigator();
@@ -48,6 +49,7 @@ export default function App() {
           <Stack.Screen name="Vegetable" options={{headerShown: false}} component={VegetableListComponent} />
           <Stack.Screen name="Baby Animal" options={{headerShown: false}} component={BabyAnimalListComponent} />
           <Stack.Screen name="People" options={{headerShown: false}} component={PeopleListComponent} />
+          <Stack.Screen name="Flower" options={{headerShown: false}} component={FlowerListComponent} />
         </Stack.Navigator>
       </NavigationContainer>
       </View>

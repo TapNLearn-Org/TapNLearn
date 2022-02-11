@@ -33,6 +33,7 @@ const HomeComponent = (props) => {
             <PictureButton text="Vegetable" navigation={props.navigation}/>
             <PictureButton text="Baby Animal" navigation={props.navigation}/>
             <PictureButton text="People" navigation={props.navigation}/>
+            <PictureButton text="Flower" navigation={props.navigation}/>
         </View>
     </View>
   );
