@@ -2,9 +2,10 @@
   "expo": {
     "name": "TapNLearn",
     "slug": "TapNLearn",
-    "version": "1.0.0",
+    "version": "3.0.0",
     "icon": "./assets/GooglePlayStore.png",
     "sdkVersion": "42.0.0",
+    "orientation": "landscape",
     "splash": {
       "image": "./assets/GooglePlayStore.png",
       "resizeMode": "contain",
@@ -20,6 +21,7 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/GooglePlayStore.png",
         "backgroundColor": "#FFFFFF"
