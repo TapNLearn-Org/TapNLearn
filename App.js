@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, Text, View } from 'react-native';
+import {StyleSheet, View } from 'react-native';
 import {NavigationContainer} from "@react-navigation/native";
 import HomeComponent from "./component/HomeComponent";
 import SportsListComponent from "./component/ModelComponents/SportsComponent";
@@ -17,6 +17,9 @@ import ObjectListComponent from "./component/ModelComponents/ObjectComponent";
 import ShapesListComponent from "./component/ModelComponents/ShapesComponent";
 import FlagsListComponent from "./component/ModelComponents/FlagsComponent";
 import {AdMobBanner, setTestDeviceIDAsync} from "expo-ads-admob";
+import BabyAnimalListComponent from "./component/ModelComponents/BabyAnimalComponent";
+import PeopleListComponent from "./component/ModelComponents/PeopleComponent";
+import FlowerListComponent from "./component/ModelComponents/FlowerComponent";
 
 // home stack navigator screens
 const Stack = createNativeStackNavigator();
@@ -44,15 +47,20 @@ export default function App() {
           <Stack.Screen name="Shapes" options={{headerShown: false}} component={ShapesListComponent} />
           <Stack.Screen name="Sports" options={{headerShown: false}} component={SportsListComponent} />
           <Stack.Screen name="Vegetable" options={{headerShown: false}} component={VegetableListComponent} />
+          <Stack.Screen name="Baby Animal" options={{headerShown: false}} component={BabyAnimalListComponent} />
+          <Stack.Screen name="People" options={{headerShown: false}} component={PeopleListComponent} />
+          <Stack.Screen name="Flower" options={{headerShown: false}} component={FlowerListComponent} />
         </Stack.Navigator>
       </NavigationContainer>
       </View>
+{/*
       <View style={styles.addContent}>
       <AdMobBanner
           bannerSize="fullBanner"
           adUnitID="ca-app-pub-1302685970072627/7331682888"
           didFailToReceiveAdWithError={bannerError()} />
       </View>
+*/}
     </View>
 
   )};
@@ -64,7 +72,7 @@ const styles = StyleSheet.create({
   },
   applicationContent: {
     width: '100%',
-    height: '90%'
+    height: '100%'
   },
   addContent: {
     position: "absolute",

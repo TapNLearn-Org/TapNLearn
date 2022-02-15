@@ -7,18 +7,19 @@ const styles = StyleSheet.create({
       height: '100%'
     },
     appTitle: {
-      marginTop: '10%',
+      marginTop: '2%',
       width: '100%',
       alignItems: 'center'
     },
     title: {
       fontSize: 40,
-      fontWeight: "600",
+      fontWeight: "bold",
       color: "#030EFE"
     },
     subTitle: {
-      fontSize: 16,
-      color: "grey"
+      fontSize: 18,
+      fontWeight: "bold",
+      color: "#e7fa6d"
 
     },
     image: {

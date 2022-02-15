@@ -14,16 +14,25 @@ Always remember this project is in React Native. So look for solutions only with
 * npm install @react-navigation/native
 * expo install react-native-screens react-native-safe-area-context
 
+## deploy to android play store
+* Update the version of the app in app.json -> version & app.json -> android -> versionCode.
+* Build the application using command expo build:android -t app-bundle
+* download the latest build from https://expo.dev/accounts/aman.kachhal99/projects/TapNLearn/builds
+* Go to https://play.google.com/console/u/0/developers/6668536516142373952/app/4972841234965412753/tracks/production to create a new release to android play store.
+* Upload the information and build and Review Release and Start Rollout.
+
 ## Package to android abb
-* expo build:android -t app-bundle
 * expo build:android -t apk
 * expo login
 
+## Task Done
+* Move the images to S3 Bucket
+
 ## Task TODO
+* Improve the images of app.
 * Back Button
 * app to be orientation of the screen
 * AdMob Integration
-* Move the images to S3 Bucket 
 * Make home screen button from picture.
 * Offline mode for the App
 * Add Music and voice
