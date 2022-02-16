@@ -28,15 +28,16 @@ const HomeComponent = (props) => {
             <Text style={homeComponentStyle.title}>Tap N Learn</Text>
             <Text style={homeComponentStyle.subTitle}>Where learning starts...</Text>
         </View>
-        {
-            data.map((pictureButtonData) => {
-                return (
-                    <PictureButton key={pictureButtonData.id} id={pictureButtonData.id}
-                                   name={pictureButtonData.name} navigation={props.navigation}/>
-                );
-            })
-        }
-
+        <View style={homeComponentStyle.pictureButton}>
+            {
+                data.map((pictureButtonData) => {
+                    return (
+                        <PictureButton key={pictureButtonData.id} id={pictureButtonData.id}
+                                       name={pictureButtonData.name} navigation={props.navigation}/>
+                    );
+                })
+            }
+        </View>
     </View>
   );
 };
