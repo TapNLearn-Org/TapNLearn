@@ -6,7 +6,7 @@ import {createNativeStackNavigator} from "react-native-screens/native-stack";
 import {enableScreens} from "react-native-screens";
 import ResourceComponent from "./component/CompoundComponent/ResourceComponents/ResourceComponent";
 import {setTestDeviceIDAsync} from "expo-ads-admob";
-import pictureComponentStyle from "./component/GranularComponent/PictureComponentStyle";
+import SubCategoryComponent from "./component/CompoundComponent/SubCategoryComponent/SubCategoryComponent";
 
 // home stack navigator screens
 const Stack = createNativeStackNavigator();
@@ -23,6 +23,7 @@ export default function App() {
         <Stack.Navigator>
           <Stack.Screen name="HomeComponent" options={{headerShown: false}} component={HomeComponent} />
           <Stack.Screen name="ResourceComponent" options={{headerShown: false}} component={ResourceComponent} />
+          <Stack.Screen name="SubCategoryComponent" options={{headerShown: false}} component={SubCategoryComponent} />
         </Stack.Navigator>
       </NavigationContainer>
       </View>

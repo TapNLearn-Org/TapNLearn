@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {ImageBackground, Text, View} from 'react-native';
 import PictureButton from "../../GranularComponent/PictureComponent";
-import pictureComponentStyle from "../../GranularComponent/PictureComponentStyle";
 import {BASE_API_URL, BASE_IMAGE_URL, GET_CATEGORY_URL} from "../../GranularComponent/Constants";
 import homeComponentStyle from "./HomeComponentStyle";
 
@@ -12,7 +11,6 @@ const HomeComponent = (props) => {
         fetch(BASE_API_URL + GET_CATEGORY_URL, {method: 'GET'})
             .then((response) => response.json())
             .then((responseJson) => {
-                console.log(responseJson)
                 setData(responseJson);})
             .catch((error) => {
                 const errorString = JSON.stringify(error);
@@ -32,7 +30,7 @@ const HomeComponent = (props) => {
             {
                 data.map((pictureButtonData) => {
                     return (
-                        <PictureButton key={pictureButtonData.id} id={pictureButtonData.id}
+                        <PictureButton key={pictureButtonData.categoryId} categoryId={pictureButtonData.categoryId}
                                        name={pictureButtonData.name} navigation={props.navigation}/>
                     );
                 })

@@ -5,9 +5,10 @@ import SliderComponent from "../../GranularComponent/SliderComponent";
 import {BASE_API_URL, GET_RESOURCE_URL} from "../../GranularComponent/Constants";
 
 const ResourceComponent = (props) => {
-    const [data, setData] = useState([]);
-    const id = props.route.params.id;
-    const API_URL = BASE_API_URL + GET_RESOURCE_URL + id;
+    const [data, setData] = useState(props.route.params.resourceDetailsList);
+//    const categoryId = props.route.params.categoryId;
+/*
+    const API_URL = BASE_API_URL + GET_RESOURCE_URL + categoryId;
     const loadData = () => {
         fetch(API_URL, {method: 'GET'})
             .then((response) => response.json())
@@ -19,7 +20,7 @@ const ResourceComponent = (props) => {
             });
     };
     useEffect(loadData,[setData]);
-
+*/
     return (
     <View style={resourceComponentStyle.container}>
       <FlatList data={data}
