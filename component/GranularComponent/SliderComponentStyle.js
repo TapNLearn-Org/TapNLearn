@@ -2,7 +2,7 @@ import {Dimensions, StyleSheet} from 'react-native';
 
 //const screenHeight = Dimensions.get("window").height * 0.9;
 const screenHeight = Dimensions.get("window").height;
-const styles = StyleSheet.create({
+const sliderComponentStyle = StyleSheet.create({
 
     container: {
       width: '100%',
@@ -32,4 +32,4 @@ const styles = StyleSheet.create({
 
 });
 
-export default styles;
+export default sliderComponentStyle;

@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-const styles = StyleSheet.create({
+const homeComponentStyle = StyleSheet.create({
 
     homeScreen: {
       width: '100%',
@@ -35,4 +35,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default styles;
+export default homeComponentStyle;

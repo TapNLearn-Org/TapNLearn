@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-const styles = StyleSheet.create({
+const pictureComponentStyle = StyleSheet.create({
   container: {
     width: '20%',
     padding: 10
@@ -20,4 +20,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default styles;
+export default pictureComponentStyle;
