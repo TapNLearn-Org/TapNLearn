@@ -30,6 +30,8 @@ const homeComponentStyle = StyleSheet.create({
     },
     pictureButton: {
         width: '100%',
+        display: 'flex',
+        flexWrap: 'wrap',
         flexDirection: 'row',
         flexShrink: 1
     }
