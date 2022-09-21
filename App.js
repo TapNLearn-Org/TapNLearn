@@ -2,16 +2,20 @@ import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import {NavigationContainer} from "@react-navigation/native";
 import HomeComponent from "./component/CompoundComponent/HomeComponent/HomeComponent";
-import {createNativeStackNavigator} from "react-native-screens/native-stack";
+import {createNativeStackNavigator} from "@react-navigation/native-stack";
 import {enableScreens} from "react-native-screens";
 import ResourceComponent from "./component/CompoundComponent/ResourceComponents/ResourceComponent";
+/*
 import {setTestDeviceIDAsync} from "expo-ads-admob";
+*/
 import SubCategoryComponent from "./component/CompoundComponent/SubCategoryComponent/SubCategoryComponent";
 
 // home stack navigator screens
 const Stack = createNativeStackNavigator();
 enableScreens();
+/*
 setTestDeviceIDAsync('EMULATOR').then(r => ({}));
+*/
 
 export default function App() {
   function bannerError() {};

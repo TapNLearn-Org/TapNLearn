@@ -4,7 +4,6 @@
     "slug": "TapNLearn",
     "version": "3.0.0",
     "icon": "./assets/GooglePlayStore.png",
-    "sdkVersion": "42.0.0",
     "orientation": "landscape",
     "splash": {
       "image": "./assets/GooglePlayStore.png",

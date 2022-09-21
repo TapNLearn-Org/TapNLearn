@@ -7,7 +7,9 @@ import homeComponentStyle from "./HomeComponentStyle";
 const HomeComponent = (props) => {
     let image = {uri: BASE_IMAGE_URL};
     const [data, setData] = useState([]);
+    console.log("In HomeComponent");
     const loadData = () => {
+        console.log("In loadData");
         fetch(BASE_API_URL + GET_CATEGORY_URL, {method: 'GET'})
             .then((response) => response.json())
             .then((responseJson) => {
